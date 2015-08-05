@@ -1,0 +1,72 @@
+.screen{
+	position: absolute;
+	max-width: 80%;
+	left: 10%;
+	display: block;
+}
+
+.screen .cabecera .titulo{
+	text-align: center;
+	position: relative;
+
+
+}
+
+.screen .contenido1, .screen .contenido9, .screen .contenido5, .screen .contenido6, .screen .contenido7{
+	display: block;
+	padding: 50px;
+	max-width: auto;
+	text-align: center;
+}
+.screen .contenido2, .screen .contenido3 {
+	max-width: auto;
+	display: inline-block;
+	vertical-align: central;
+	text-align: center;
+	padding: 50px;
+}
+
+.screen .contenido2 .lista{
+	display: inline-block;
+	max-width: 50%;
+
+	
+}
+table, th, td {
+    border: 1px solid black;
+}
+.fila_roja{
+	background-color: red;
+}
+.fila_verde{
+	background-color: green;
+
+}
+.fila{
+	background-color: white;
+}
+.input1, .input2{
+	background-color: white;
+
+}
+span{
+	display: none;
+}
+
+
+.screen .contenido9 .parte{
+	background-color: grey;
+	color: green;
+}
+
+.contenido5{
+	color:red;
+	background-color: green;
+}
+.contenido6{
+	color:yellow;
+	background-color: blue;
+}
+.contenido4{
+	align-content: center;
+}
